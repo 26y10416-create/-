@@ -1,0 +1,157 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:white;
+}
+
+.high{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px;
+  font-size:14px;
+}
+
+.high a{
+  text-decoration:none;
+  color:black;
+  margin:0 10px;
+}
+
+.right-menu{
+  display:flex;
+  align-items:center;
+}
+
+.login{
+  background:#1a73e8;
+  color:white !important;
+  padding:10px 18px;
+  border-radius:20px;
+}
+
+.main{
+  min-height: 75vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding-bottom:40px;
+}
+
+.logo{
+  font-size:90px;
+  font-weight:bold;
+  margin-bottom:30px;
+  letter-spacing:-4px;
+}
+
+.blue{ 
+    color:#4285F4; 
+}
+
+.red{ 
+    color:#EA4335; 
+}
+
+.yellow{ 
+    color:#FBBC05; 
+}
+
+.green{ 
+    color:#34A853; 
+}
+
+.search{
+  width: 700px;
+  max-width: 70%;
+  display:flex;
+  align-items:center;
+  border:1px solid rgb(218, 220, 224);
+  border-radius:30px;
+  padding:10px 14px;
+  box-sizing:border-box;
+  gap:10px;
+}
+
+.search input{
+  flex:1;
+  border:none;
+  outline:none;
+  font-size:13px;
+  height:30px;
+}
+
+.search img{
+  width:18px;
+  height:18px;
+  object-fit:contain;
+}
+
+.search button{
+  border:none;
+  background:rgb(243, 245, 246);
+  padding:8px 14px;
+  border-radius:100px;
+}
+
+.icon{
+  width:90px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  font-size:13px;
+}
+
+.icons{
+  display:flex;
+  gap:30px;
+  margin-top:30px;
+}
+
+.icon-box{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-size:13px;
+  cursor:pointer;
+}
+
+.circle{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:#f1f3f4;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:8px;
+  font-size: 23px;
+}
+
+footer{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background:#f2f2f2;
+  font-size:14px;
+  color:#70757a;
+}
+
+.top{
+  padding:15px 30px;
+  border-bottom:1px solid #dadce0; 
+}
+
+.bottom{
+  display:flex;
+  justify-content:space-between;
+  padding:15px 30px;
+}
+
+.bottom a{
+  text-decoration:none;
+  color:#70757a;
+  margin-right:20px;
+}
