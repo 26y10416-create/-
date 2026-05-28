@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f5f6f7;
+}
+
+.N{
+    width: 400px;
+    margin: 80px auto;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 45px;
+    color: #03C75A;
+    margin-bottom: 10px;
+}
+
+p{ 
+    font-size: 18px; 
+    color: #555; 
+    padding: 30px; 
+    margin-left: 150px;
+    font-family: 'Arial', sans-serif; 
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.gender button{
+    flex: 1;
+    margin: 0 3px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+    color: lightgray;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: #03C75A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
