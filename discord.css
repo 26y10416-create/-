@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background: black;
+    color: white;
+}
+
+header button{
+    font-size: 24px !important;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+    padding: 0 30px;
+    margin-top: 50px;
+}
+
+button:hover{
+    background: #5c58e7;
+    border-radius: 10px;
+    padding:10px 15px; 
+}
+
+a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+button{
+    background:transparent;
+    border:none;
+    color:white;
+}
+
+.menu{
+    display:flex;
+    gap:35px;
+}
+
+.login{
+    background:white;
+    color:black;
+    padding:10px 15px; 
+    border-radius:15px;
+}
+
+.login:hover{
+    background: rgb(197, 200, 208);
+    padding:10px 15px; 
+    border-radius:15px;
+}
+
+h1{
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 0.9;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+
+h2{
+    font-size: 25px;
+    padding-left: 450px;
+    font-weight: 100;
+}
+
+img{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 200px;
+    right: 400px;
+}
+
+.img2{
+    width: 200px;
+    height: 270px;
+    position: absolute;
+    top: 470px;
+    right: 345px;
+}
+
+.img3{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 510px;
+    right: 925px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    gap: 20px;
+}
+
+.box{
+    background:white;
+    color:black;
+    padding:15px 20px; 
+    border-radius:10px;
+    width: 230px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 7px;
+}
+
+.box:hover{
+    background: rgb(197, 200, 208);
+    padding:15px 20px; 
+    border-radius:10px;
+    width: 250px;
+}
+
+.box2{
+    background:#5c58e7;
+    color:white;
+    padding:15px 20px; 
+    border-radius:10px;
+    width: 280px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.box2:hover{
+    background: #4844cd;
+    padding:15px 20px; 
+    border-radius:10px;
+    width: 280px;
+}
