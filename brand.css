@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 main {
@@ -25,7 +24,6 @@ main {
     height: 35px;
     background: none;
     border: none;
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
